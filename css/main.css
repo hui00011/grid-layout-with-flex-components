@@ -7,6 +7,8 @@ body {
   border: 1px solid #222;
   border-radius: 8px;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .emoji h2 {
@@ -24,4 +26,18 @@ body {
 
 .icon {
   font-size: 4rem;
+  order: -1;
+  text-align: center;
 }
+
+.emojis {
+  display: grid;
+  grid-template-rows: 315px 351px;
+  grid-template-columns: 420px 420px;
+  gap: 1em;
+}
+
+h2 {
+  padding-top: 12px;
+}
+
